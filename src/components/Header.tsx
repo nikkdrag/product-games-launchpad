@@ -18,27 +18,27 @@ const Header = () => {
   return (
     <header className={`w-full z-50 transition-all duration-300 py-4 ${isSticky ? 'navbar-fixed' : ''}`}>
       <div className="pg-container flex justify-between items-center">
-        <a href="#" className="text-2xl font-bold text-pgpurple">Product Games</a>
+        <a href="#" className="text-xl font-bold text-pgpurple">Product Games</a>
         
         {/* Desktop Menu */}
-        <nav className="hidden lg:flex items-center space-x-6">
-          <a href="#about" className="text-gray-700 hover:text-pgpurple transition-colors">О кейс-клубе</a>
-          <a href="#interviews" className="text-gray-700 hover:text-pgpurple transition-colors">Собеседования на английском</a>
-          <a href="#cases" className="text-gray-700 hover:text-pgpurple transition-colors">Примеры кейсов</a>
-          <a href="#testimonials" className="text-gray-700 hover:text-pgpurple transition-colors">Отзывы</a>
-          <a href="#pricing" className="text-gray-700 hover:text-pgpurple transition-colors">Тарифы</a>
-          <a href="#experts" className="text-gray-700 hover:text-pgpurple transition-colors">Об экспертах</a>
-          <a href="#faq" className="text-gray-700 hover:text-pgpurple transition-colors">FAQ</a>
-          <a href="https://t.me/productgames" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-pgpurple transition-colors">Telegram-канал</a>
+        <nav className="hidden lg:flex items-center space-x-4">
+          <a href="#about" className="text-sm text-gray-700 hover:text-pgpurple transition-colors">О кейс-клубе</a>
+          <a href="#interviews" className="text-sm text-gray-700 hover:text-pgpurple transition-colors">Собеседования</a>
+          <a href="#cases" className="text-sm text-gray-700 hover:text-pgpurple transition-colors">Кейсы</a>
+          <a href="#testimonials" className="text-sm text-gray-700 hover:text-pgpurple transition-colors">Отзывы</a>
+          <a href="#pricing" className="text-sm text-gray-700 hover:text-pgpurple transition-colors">Тарифы</a>
+          <a href="#experts" className="text-sm text-gray-700 hover:text-pgpurple transition-colors">Эксперты</a>
+          <a href="#faq" className="text-sm text-gray-700 hover:text-pgpurple transition-colors">FAQ</a>
+          <a href="https://t.me/productgames" target="_blank" rel="noopener noreferrer" className="text-sm text-gray-700 hover:text-pgpurple transition-colors">Telegram</a>
         </nav>
         
         {/* Contact Icons */}
         <div className="hidden lg:flex items-center space-x-4">
           <a href="mailto:pgcaseclub@gmail.com" aria-label="Email" className="text-gray-700 hover:text-pgpurple transition-colors">
-            <Mail size={20} />
+            <Mail size={18} />
           </a>
           <a href="https://t.me/KriGuseva" target="_blank" rel="noopener noreferrer" aria-label="Telegram" className="text-gray-700 hover:text-pgpurple transition-colors">
-            <MessageCircle size={20} />
+            <MessageCircle size={18} />
           </a>
         </div>
         
